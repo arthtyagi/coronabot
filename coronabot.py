@@ -20,21 +20,24 @@ api = tweepy.API(auth)
 while True:
     try:
         # Retrievel of API
-        response = requests.get("https://coronavirus-tracker-api.herokuapp.com/all")
+        response = requests.get("https://covid19.mathdro.id/api")
+       
 
         # Fetches JSON
-        data = response.json()
+        responseJson = response.json()
         # Fetches the 'latest' node from the API
-        LatestData = data['latest']
-
+        confirmed = responseJson['confirmed']['value']
+        recovered = responseJson['recovered']['value']
+        deaths = responseJson['deaths']['value']
         # Current Time
         CurrentTime = datetime.datetime.now().time()
         
         # Sub nodes from the 'latest' node are fetched along with the current date/time and used in the tweet
-        tweet = "The Latest Coronavirus statistics are as follows: \n Tweeted: " + CurrentTime +  "\n Confirmed: " + str(LatestData['confirmed']) +"" + "\n Deaths: " + str(LatestData['deaths']) + "\n Recovered: " + str(LatestData['recovered']) +  "\n #COVID19 #COVID-19 #Covid_19 #Coronavirus #CoronavirusPandemic"        
-        print(tweet)        
-        api.update_status(tweet)
-        time.sleep(4320)
+        tweet1 = "The Latest Coronavirus statistics worldwide are as follows: \n Confirmed: " + str(confirmed) + "" + "\n Deaths: " + str(deaths) + "\n Recovered: " + str(recovered) + "" + "\n Reliable data from https://covid19.mathdro.id/api/"  "\n #COVID19 #COVID-19 #Covid_19 #Coronavirus #CoronavirusPandemic"
+        print(tweet1)        
+        api.update_status(tweet1)
+        
+        time.sleep(3600)
     except tweepy.TweepError as error:
         print('\nError. Retweet not successful. Reason: ')
         print(error.reason)
