@@ -5,8 +5,8 @@ This bot uses Coronavirus-tracker [API](https://coronavirus-tracker-api.herokuap
 
 Features : 
 
-- [X] Worldwide Count of Confirmed Cases, recoveries and death.
-- [X] US Count for Confirmed Cases and Death
+- [x] Worldwide Count of Confirmed Cases, recoveries and death.
+- [x] US Count for Confirmed Cases and Death
 - [ ] Support for India.
 - [ ] Posts from coronavirus subreddit every 5 minutes.
 
