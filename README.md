@@ -7,6 +7,7 @@ Features :
 
 - [x] Worldwide Count of Confirmed Cases, recoveries and death.
 - [x] US Count for Confirmed Cases and Death
+- [x] Send emails.
 - [ ] Support for India.
 - [ ] Posts from coronavirus subreddit every 5 minutes. ( Almost done )
 
