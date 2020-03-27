@@ -9,7 +9,7 @@ Features :
 - [x] US Count for Confirmed Cases and Death
 - [x] Send emails.
 - [ ] Support for India.
-- [ ] Posts from coronavirus subreddit every 5 minutes. ( Almost done )
+- [ ] Posts from coronavirus subreddit every 5 minutes. 
 
 
 It's live on [Twitter](https://twitter.com/thecovidude)
