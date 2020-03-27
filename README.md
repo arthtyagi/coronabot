@@ -1,5 +1,5 @@
 # coronabot
-A coronavirus twitter ~~bot~~ account.
+A coronavirus twitter ~~bot~~ account. Plus other features included in this repo.
 
 This bot uses Coronavirus-tracker [API](https://coronavirus-tracker-api.herokuapp.com/all) hosted on Heroku.
 
