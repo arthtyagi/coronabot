@@ -12,4 +12,4 @@ Features :
 - [ ] Posts from coronavirus subreddit every 5 minutes. ( Almost done )
 
 
-It's live on (Twitter)[twitter.com/thecovidude)
+It's live on [Twitter](twitter.com/thecovidude)
