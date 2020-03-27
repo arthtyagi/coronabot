@@ -69,8 +69,5 @@ def send_mail(country_element, total_cases, new_cases, total_deaths, new_deaths,
     print('Hey Email has been sent!')
 
     server.quit()
-
-
-
 coronabot = Coronavirus()
 coronabot.ghetto()
