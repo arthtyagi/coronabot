@@ -1,4 +1,6 @@
 # coronabot
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A coronavirus twitter ~~bot~~ account. Plus other features included in this repo.
 
 This bot uses Coronavirus-tracker [API](https://coronavirus-tracker-api.herokuapp.com/all) hosted on Heroku.
