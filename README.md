@@ -15,4 +15,3 @@ Features :
 
 It's live on [Twitter](https://twitter.com/thecovidude)
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
