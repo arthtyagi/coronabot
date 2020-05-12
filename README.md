@@ -14,4 +14,6 @@ Features :
 
 
 It's live on [Twitter](https://twitter.com/thecovidude)
+and
+[Twitter](https://twitter.com/mofocovidash)
 
